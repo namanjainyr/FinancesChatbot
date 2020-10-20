@@ -6,7 +6,7 @@ Finance Chatbot is a chatbot assistant to interact with users and help them with
 
 Finance chat bot is deployed on Azure Virtual Machine and accessible via Ngrok tunnel. 
 
-[Click To Access Finance Chat Bot](https://75702c1f0853.ngrok.io/)
+[Click To Access Finance Chat Bot](https://6821ad85b2fe.ngrok.io/)
 
 ![Alt Text](https://imagesfinancechatbot.blob.core.windows.net/finchatbot/Finchatbot.gif)
 
