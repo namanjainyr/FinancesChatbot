@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Finchat bot</title>
+  <link href="/css/chat.style.css" type="text/css" rel="stylesheet">
+  <link rel="icon" href="/images/logo.ico" type="image/gif" sizes="16x16">
+</head>
+
+<body>
+  <p id="username" style="display:none"><%= username %></p>
+  <p id="emailId" style="display:none"><%= emailId %></p>
+  <div class="chat-container">
+    <ul id="messages"></ul>
+  </div>
+  <form action="">
+    <input id="m" placeholder="Start typing here..." autocomplete="off" /><button><img src="../images/send.png"
+        width="35px" height="15px"></button>
+  </form>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="/js/script.js"></script>
+
+</body>
+
+</html>
