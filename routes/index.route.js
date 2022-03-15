@@ -37,10 +37,13 @@ router.get('/error',
 router.post('/login', (req, res, next) => {
     passport.authenticate('local',
         (err, user, info) => {
+            console.log(err);
+            console.log(info);
             if (err) {
                 return next(err);
             }
             if (!user) {
+                // console.log("login");
                 return res.redirect('/error');
             }
             req.logIn(user, function (err) {
